@@ -4,7 +4,12 @@ public class Eagles extends Birds {
     private String[] preys;
 
     public String hunt() {
-        return "捕食";
+        return String.format("在饥肠辘辘之际捕食了一只%s，", getPrey()[0]);
+    }
+
+    public String info() {
+        return String.format("一只%d岁的老鹰，体重%dKg，这只老鹰生活在%s窝所以它只捕食%s。",
+                getAge(), getWeight(), getPrey()[0], getPrey()[0] );
     }
 
     public Eagles() {

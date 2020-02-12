@@ -4,7 +4,7 @@ public class Birds extends Animals {
     private int speed;
 
     public String fly() {
-        return "翱翔天空";
+        return "某天它先翱翔天空，";
     }
 
     public Birds() {

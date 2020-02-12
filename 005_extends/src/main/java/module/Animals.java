@@ -5,11 +5,11 @@ public class Animals {
     private int weight;
 
     public String eat() {
-        return "饱餐";
+        return "然后饱餐一顿，";
     }
 
     public String sleep() {
-        return "睡觉";
+        return "心满意足之后就睡觉了。";
     }
 
     public Animals() {
